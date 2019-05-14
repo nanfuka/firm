@@ -9,9 +9,111 @@ body {
 #wrapper {
     min-height: 100%;
 }
+#contactus{
+    display: none;
 
+     width: 50%;
+    
+    background-color:rgb(255, 167, 4);
+margin-left: 24%; 
+text-align: center;
+min-height: 25vh;
+margin-bottom: 1%;
+
+}
+.tel{
+    background-color: whitesmoke;
+    margin-top: 2%;
+    width: 100%;
+}
+#contactus input, button{
+    
+    width: 90%;
+    min-height: 5vh;
+    margin-top: 3%;
+    margin-bottom: 2%;
+
+    
+}
+.tmessage{
+    min-height: 25vh;
+}
+.mainpics{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+    
+    /* background-color: #4CAF50; */
+    min-height: 50vh;
+}
+.previous{
+  
+padding-right: 10%;
+
+/* background-color:red;  */
+margin-top: 15%;
+    
+}
+.next{
+     
+padding-left: 10%;
+/* background-color:red;  */
+margin-top: 15%;
+}
+.nexta {
+
+    margin-top: 2%;
+
+}
+ .mheader{
+    display: flex;
+    /* width: 100%; */
+    max-height: 50vh;
+    /* background-color:blue;  */
+   
+ } 
+.logo{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    min-height: 20%;
+}
+
+.logo img{
+    width: 50%; 
+    height: 100%;
+    border-radius:50%;
+    /* margin-top: 4%; */
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.logomessage{
+    margin-top: 4%;
+    float: right;
+    font-size: 120%;
+    font-family: 'Fontdiner Swanky', cursive;
+    /* margin-bottom: 10%; */
+
+}
+#pics{
+ background-color: palevioletred;
+ width: 50%;
+
+}
+#pics img{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+.tmessage{
+    min-height: 100px;
+}
 .row1 {
-    background-color: red;
+    background-color:blue;
     /* height: 50px; */
     min-height: 15vh;
     color: white;
@@ -24,12 +126,34 @@ body {
 }
 
 .row2 {
-    min-height: 15vh;
+    /* min-height: 7vh; */
     display: flex;
     justify-content: space-evenly;
-    padding: 2%;
-    font-size: calc(12px + 1.5vw);
+    padding: 0%;
+    font-size: 120%;
+    /* font-size: calc(12px + 1.5vw); */
+    background-color:rgb(255, 167, 4);
     /* flex-direction: row;    */
+}
+.row4{
+    text-align: center;  
+      font-family: 'Port Lligat Slab', serif;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    font-family: 'Fontdiner Swanky', cursive;
+
+}
+.row5{
+    table-layout: center;
+}
+.pointer{
+    text-align: center;
 }
 
 .nav-icon {
@@ -70,29 +194,117 @@ body {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .mySlides {display:none;
+    margin-left: 24%;
+
+}
+.w3-center{
+    text-align: center;
+}
 @media (max-width: 999px) {
-    .row1 {
-        background-color: blue;
-        min-height: 10vh;
-        color: white;
+
+    .mheader{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-height: 50vh;
+        background-color:blue; 
+       /* flex-wrap: wrap; */
+       font-size: 30px;
+     } 
+     .logomessage{
+        margin-top: 4%;
         text-align: center;
-        padding-top: 50px;
-        font-size: 50px;
+        float: right;
+        font-size: 120%;
+        font-family: 'Fontdiner Swanky', cursive;
+        /* margin-bottom: 10%; */
+    
+    }
+    .logo{
+        width: 40%;
+        /* background-color: yellow; */
+        margin-left: 30%;
+    }
+    .logo img{
+        width: 100%; 
+        height: 100%;
+        border-radius:50%;
+        /* margin-top: 4%; */
+       
+        
+
+    }
+    .mainpics{
+        margin-top: 1%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        background-color: brown;
+        
+        
+        /* background-color: #4CAF50; */
+        min-height: 50vh;
     }
 
-    .row2 {
-        display: none;
+    .previous{
+      
+    margin-left: 2%;
+    
+    /* background-color:red;  */
+    margin-top: 25%;
+        
+    }
+    .next{
+         
+    margin-right: 2%;
+    /* background-color:red;  */
+    margin-top: 25%;
+
     }
 
-    .nav-icon {
-        display: block;
-        margin-top: 20px;
-        margin-left: 20px;
-    }
-    .dropdown-content{
-        font-size: calc(19px + 1.5vw);
-    }
+    #pics{
+        background-color: palevioletred;
+        width: 100%;
+       
+       }
+       #pics img{
+           width: 100%;
+           margin: 0;
+           height: 100%;
+       }
+.row4{
+    font-size: 30px;
+}
+.row2 {
+    /* min-height: 7vh; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
+    font-size: 30px;
+    /* font-size: calc(12px + 1.5vw); */
+    background-color:rgb(255, 167, 4);
+    font-family: 'Fontdiner Swanky', cursive;
+    /* flex-direction: row;    */
+}
+#contactus{
+display: none;
+    width: 100%;
+    height: 50vh;
+    
+    background-color:rgb(255, 167, 4);
+
+text-align: center;
+font-size: 30px;
 
 
-
+}
+/* #contactus input, button{
+    
+    width: 60%;
+    margin: 3%;
+    
+}       */
+   
 }

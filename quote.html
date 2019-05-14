@@ -1,0 +1,83 @@
+<p> please note that this is a draft quotation which is subject to modification. this quotation does not consist of any
+    baglor designs or flowers</p>
+<table id = "oldtable">
+    <tr>
+        <th>item drop down list</th>
+        <th>width</th>
+        <th>height</th>
+        <th>type of material</th>
+        <th>number of items</th>
+    </tr>
+    <tbody>
+    <tr>
+        <td>
+            <input type="text" placeholder="select item">
+        </td>
+        <td>
+            <input type="number" placeholder="enter width in inches">
+        </td>
+        <td>
+            <input type="number" placeholder="enteeer height in inches">
+
+        </td>
+        <td>
+            <input type="number" placeholder="select quality density from the list">
+        </td>
+        <td>
+            <input type="number" placeholder="enter nhumber of materials to produce">
+        </td>
+        <td>
+            <div id = "newrow"></div>
+            
+        </td>
+
+
+    </tr>
+</tbody>
+</table>
+<button onclick="Newrow()">add</button>
+<button>generate quotation</button>
+
+<script>
+function Newrow(){
+    var tableref = document.getElementById("oldtable");
+     r =tableref.insertRow(0)
+//     var newRow = tableref.insertRow(tableref.rows.length);
+// var newCell = newRow.insertCell(0)
+// var newText = document.insertRow(`    <tr>
+//         <td>
+//             <input type="text" placeholder="select item">
+//         </td>
+//         <td>
+//             <input type="number" placeholder="enter width in inches">
+//         </td>
+//         <td>
+//             <input type="number" placeholder="enteeer height in inches">
+
+//         </td>
+//         <td>
+//             <input type="number" placeholder="select quality density from the list">
+//         </td>
+//         <td>
+//             <input type="number" placeholder="enter nhumber of materials to produce">
+//         </td>
+//         <td>
+//             <div id = "newrow"></div>
+            
+//         </td>
+
+
+//     </tr>`);
+// newCell.appendChild(newText);
+// //    var result = document.getElementById("oldtable")
+// //     results =result.inserRow()
+
+
+               
+
+    
+    document.getElementById("newrow").innerHTML = r;
+
+}
+
+</script>

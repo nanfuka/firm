@@ -9,16 +9,12 @@
 </head>
 
 <body>
-  <div class="mheader">
-    <div class='logo'><img src="log.jpg"></div>
-    <div class="logomessage"><b>INSPIRED ENGNEERING AND FABRICATION COMPANY LIMITED</b></div>
-  </div>
-  <!-- <div class="row1">INSPIRED ENGNEERING COMPANY LIMITED</div> -->
+  <div class="row1">INSPIRED ENGNEERING COMPANY LIMITED</div>
   <div class="row2">
-    <a href = "index.html">Home</a>
-    <a href = aboutus.html>About Us</a>
-    <a href = "quote.html">free quotations</a>
-    <a href = "samples.html">Sample Items</p>
+    <p>Home</p>
+    <p>About Us</p>
+    <p>free quotations</p>
+    <p>Sample Items</p>
     <p onclick="Sendmessage()"><a href="#">Contact Us</a></p>
 
 
@@ -36,31 +32,32 @@
       </div>
     </div>
   </div>
+  <!-- <div class = "row3">
+        our values
+        <img src="gate3.jpg">
+    </div> -->
+  <h2 class="w3-center">our products</h2>
+  <hr>
 
-  <div class="mainpics" id="mainpics">
-    <div class="previous">
-      <a href="#" onclick="plusDivs(-1)">&#10094;</a>
-    </div>
-    <div class="w3-content w3-display-container" id="pics">
-      <img class="mySlides" src="gate.jpg">
-      <img class="mySlides" src="gate3.jpg">
-    </div>
-    <div class="next"><a href="#" onclick="plusDivs(1)" class="nexta">&#10095;</a>
+  <div class="w3-content w3-display-container" id="pics">
+<div class = "location">
+    <p> location</p>
+    <hr>
+    <p> we are located at kaliwanjjalla</p>
+    <h3>contacts></h3>
+        <hr>
+        <p> tel: 0706604444</p>
+        <p>email: nsu@gmail.com</p>
+
+    
     </div>
 
   </div>
-  
-
-
   <div id="contactus">
-<div class = "tel">
-      <div>tel: 0706604444, Emmanuel Nsubuga, Operations Manager</div>
-      <div>physical location: Kyaliwajjala, 5 minutes opposite catholic church</div>
- </div>     
-   <h2>Send us a message</h2> 
+    <h4>Contact us</h4>
     <input type='email' placeholder="Enter your email"><br>
-    <input type='text' class="tmessage" placeholder="type your message here"><br>
-    <button>submit</button> 
+    <input type='text' class = "tmessage" placeholder="type your message here"><br>
+    <button>submit</button>
 
   </div>
   <div class="row4">
@@ -101,7 +98,7 @@
 
     function Sendmessage() {
       document.getElementById("contactus").style.display = "block";
-      document.getElementById("mainpics").style.display = "none";
+      document.getElementById("pics").style.display = "none";
 
     }
   </script>
